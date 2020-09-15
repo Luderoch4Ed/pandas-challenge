@@ -1,63 +1,70 @@
 # Pandas Challenge
 
-One Paragraph of project description goes here
+![Fantasy](Images/Fantasy.png)
 
-## Getting Started
+The task is to analyzing the data for the fantasy game Heroes of Pymoli. As a first task, the company would like you to generate a report that breaks down the game's purchasing data into meaningful insights.
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+The final report includes the following:
 
-### Prerequisites
+### Player Count
 
-What things you need to install the software and how to install them
+* Total Number of Players
 
-```
-Give examples
-```
+### Purchasing Analysis (Total)
 
-### Installing
+* Number of Unique Items
+* Average Purchase Price
+* Total Number of Purchases
+* Total Revenue
 
-A step by step series of examples that tell you how to get a development env running
+### Gender Demographics
 
-Say what the step will be
+* Percentage and Count of Male Players
+* Percentage and Count of Female Players
+* Percentage and Count of Other / Non-Disclosed
 
-```
-Give the example
-```
+### Purchasing Analysis (Gender)
 
-And repeat
+* The below each broken by gender
+  * Purchase Count
+  * Average Purchase Price
+  * Total Purchase Value
+  * Average Purchase Total per Person by Gender
 
-```
-until finished
-```
+### Age Demographics
 
-End with an example of getting some data out of the system or using it for a little demo
+* The below each broken into bins of 4 years (i.e. &lt;10, 10-14, 15-19, etc.)
+  * Purchase Count
+  * Average Purchase Price
+  * Total Purchase Value
+  * Average Purchase Total per Person by Age Group
 
-## Running the tests
+### Top Spenders
 
-Explain how to run the automated tests for this system
+* Identify the the top 5 spenders in the game by total purchase value, then list (in a table):
+  * SN
+  * Purchase Count
+  * Average Purchase Price
+  * Total Purchase Value
 
-### Break down into end to end tests
+### Most Popular Items
 
-Explain what these tests test and why
+* Identify the 5 most popular items by purchase count, then list (in a table):
+  * Item ID
+  * Item Name
+  * Purchase Count
+  * Item Price
+  * Total Purchase Value
 
-```
-Give an example
-```
+### Most Profitable Items
 
-### And coding style tests
+* Identify the 5 most profitable items by total purchase value, then list (in a table):
+  * Item ID
+  * Item Name
+  * Purchase Count
+  * Item Price
+  * Total Purchase Value
 
-Explain what these tests test and why
+## Prequisites:
 
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
-
-## Built With
-
-* [Dropwizard](http://www.dropwizard.io/1.0.2/docs/) - The web framework used
-* [Maven](https://maven.apache.org/) - Dependency Management
-* [ROME](https://rometools.github.io/rome/) - Used to generate RSS Feeds
+* You mus have the Pandas Library and the Jupyter Notebook available locally on your pc
