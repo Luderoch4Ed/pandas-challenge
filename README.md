@@ -67,4 +67,4 @@ The final report includes the following:
 
 ## Prequisites:
 
-* You mus have the Pandas Library and the Jupyter Notebook available locally on your pc
+* You must have the Pandas Library and the Jupyter Notebook available locally on your pc
